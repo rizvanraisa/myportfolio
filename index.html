@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio Website</h1>
+        <p>Hi, I'm Arodiya Rizvan Rais, a student at GEC PATAN.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <h3>arodiya Rizvan<br>I Am Computer Science Engineering<br><b>Interst in :</b><br>Like Cricket<br>Football<br>Reading<br>Problem Solving</h3>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title</h3>
+            <p>Description of the project, technologies used, and your role.</p>
+            <h2><b>Simple Calculator</b></h2>
+            <a href="http://127.0.0.1:5501/cal.html">View Project</a>
+            <h2><b>Simple Weather</b><h4>(but api problem not working)</h4></h2>
+            <a href="http://127.0.0.1:5502/weather.html">view project</a>
+        </div>
+        <!-- Repeat for other projects -->
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+             <li>CSS</li>
+            <li>j.S</li>
+            <li>java</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
